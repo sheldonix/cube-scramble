@@ -93,4 +93,4 @@ npm run build   # outputs dist/index.js (ESM) and dist/index.cjs (CJS)
 
 ## Notes
 
-- License: GPL-3.0-only.
+- License: GPL-3.0
