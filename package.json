@@ -1,0 +1,34 @@
+{
+  "name": "cube-scramble",
+  "version": "0.1.4",
+  "description": "Pure ESM scramble generator for cubes and related puzzles",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "node --input-type=module -e \"import { getScramble, setSeed } from './dist/index.js'; setSeed('42'); console.log(getScramble('333'));\""
+  },
+  "keywords": [
+    "scramble",
+    "scrambler",
+    "rubiks",
+    "cube",
+    "puzzle"
+  ],
+  "author": "sheldonix",
+  "license": "GPL-3.0-only",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
