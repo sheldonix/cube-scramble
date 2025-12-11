@@ -19,7 +19,6 @@ setSeed("42");                    // optional deterministic seed
 console.log(getScrambleTypes());  // list available scramble types
 console.log(getScramble("333"));  // generate a 3x3 scramble string
 console.log(getScramble("444wca", 40)); // type with custom length
-// Package entry resolves to ESM when used in ESM projects (e.g., Nuxt/Vite).
 ```
 
 ### CommonJS
