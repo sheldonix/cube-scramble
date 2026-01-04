@@ -1,5 +1,10 @@
 # cube-scramble
 
+[![npm version](https://img.shields.io/npm/v/cube-scramble)](https://www.npmjs.com/package/cube-scramble)
+[![npm downloads](https://img.shields.io/npm/dm/cube-scramble)](https://www.npmjs.com/package/cube-scramble)
+[![node >=18](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
+[![license](https://img.shields.io/npm/l/cube-scramble)](LICENSE)
+
 Pure JavaScript scramble generator for cubes and related twisty puzzles. Ships both ESM and CJS builds for easy use in Node, Vite/Nuxt, and build pipelines.
 
 ## Install
@@ -90,6 +95,13 @@ npm install
 npm run build   # outputs dist/index.js (ESM) and dist/index.cjs (CJS)
 ```
 
-## Notes
+## Contributing
 
-- License: GPL-3.0
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+[![GitHub](https://img.shields.io/badge/Github-sheldonix%2Fcube--scramble-green?logo=github)](https://github.com/sheldonix/cube-scramble)
+
+## License
+[GPL-3.0](./LICENSE)
