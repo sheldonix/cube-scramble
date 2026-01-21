@@ -29,6 +29,10 @@
     "cjs"
   ],
   "author": "sheldonix",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheldonix/cube-scramble"
+  },
   "license": "GPL-3.0-only",
   "files": [
     "dist"
