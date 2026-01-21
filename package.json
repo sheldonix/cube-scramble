@@ -1,7 +1,7 @@
 {
   "name": "cube-scramble",
-  "version": "0.1.6",
-  "description": "Pure ESM scramble generator for cubes and related puzzles.",
+  "version": "0.1.7",
+  "description": "WCA-oriented scramble generator for cubes and related puzzles.",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -21,7 +21,12 @@
     "rubiks",
     "cube",
     "wca",
-    "puzzle"
+    "puzzle",
+    "nodejs",
+    "vite",
+    "nuxt",
+    "esm",
+    "cjs"
   ],
   "author": "sheldonix",
   "license": "GPL-3.0-only",

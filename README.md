@@ -5,7 +5,7 @@
 [![node >=18](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
 [![license](https://img.shields.io/npm/l/cube-scramble)](LICENSE)
 
-Pure JavaScript scramble generator for cubes and related twisty puzzles. Ships both ESM and CJS builds for easy use in Node, Vite/Nuxt, and build pipelines.
+Scramble generator for cubes and related twisty puzzles, including WCA event scramble types commonly used in competition workflows. Ships both ESM and CJS builds for easy use in Node, Vite/Nuxt, and build pipelines.
 
 ## Install
 
